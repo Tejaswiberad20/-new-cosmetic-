@@ -1,0 +1,77 @@
+body{
+    background: url('../imges/background.avif');
+    height: 500px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.logo-img{
+    width: 100px;
+}
+.background{
+
+    background-color: #fff;
+    box-shadow: 0 0 5px 1px gray;
+}
+.nav-link{
+color: #000;
+}
+.nav-link:hover{
+    color: #f15398;
+    text-underline-position:below;
+}
+.background-head{
+ 
+}
+.head{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #f15398;
+    text-align: start;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+.text{
+    width: 450px;
+    color: #000;
+    text-align: start;
+    margin-left: 30px;
+}
+.text:hover{
+    color: #f15398;
+}
+.head-img{
+    transform: rotateX();
+}
+
+.imghead{
+    background-color: #f7d0e1;
+    box-shadow: 0 0 3px 1px #f15398;
+}
+.head-btn{
+    padding: 10px 20px;
+    width: 200px;
+    border: none;
+    background-color: #f15398;
+    color: #fff;
+    margin: 10px 50px;
+    border-radius: 10px;
+}
+.head-btn:hover{
+    box-shadow: 0 0 10px 1px #f15398;
+    
+    
+}
+.head1{
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f15398;
+    text-align: center;
+}
+.head:hover{
+    color: #000;
+}
