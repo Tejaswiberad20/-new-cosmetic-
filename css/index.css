@@ -1,4 +1,4 @@
-body{
+body {
     background: url('../imges/background.avif');
     height: 500px;
     margin-top: 0px;
@@ -6,27 +6,31 @@ body{
     font-family: "Bree Serif", serif;
     font-weight: 400;
     font-style: normal;
-    background-color: rgb(248, 248, 215);
+    background-color:beige;
 }
-.logo-img{
+
+.logo-img {
     width: 100px;
 }
-.background{
+
+.background {
 
     background-color: #fff;
     box-shadow: 0 0 5px 1px gray;
 }
-.nav-link{
-color: #000;
+
+.nav-link {
+    color: #000;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #f15398;
-    text-underline-position:below;
+    text-underline-position: below;
 }
-.background-head{
- 
-}
-.head{
+
+.background-head {}
+
+.head {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
@@ -35,24 +39,28 @@ color: #000;
     margin-top: 200px;
     margin-left: 30px;
 }
-.text{
+
+.text {
     width: 450px;
     color: #000;
     text-align: start;
     margin-left: 30px;
 }
-.text:hover{
+
+.text:hover {
     color: #f15398;
 }
-.head-img{
+
+.head-img {
     transform: rotateX();
 }
 
-.imghead{
+.imghead {
     background-color: #f7d0e1;
     box-shadow: 0 0 3px 1px #f15398;
 }
-.head-btn{
+
+.head-btn {
     padding: 10px 20px;
     width: 200px;
     border: none;
@@ -61,45 +69,113 @@ color: #000;
     margin: 10px 50px;
     border-radius: 10px;
 }
-.head-btn:hover{
+
+.head-btn:hover {
     box-shadow: 0 0 10px 1px #f15398;
-    
-    
 }
-.head1{
+
+.head1 {
     font-family: "Bree Serif", serif;
     font-weight: 400;
     font-style: normal;
     color: #f15398;
     text-align: center;
 }
-.head:hover{
+
+.head:hover {
     color: #000;
 }
 
-.h{margin-top:100px;
+.h {
+    margin-top: 100px;
     font-size: 66px;
     text-align: start;
     margin-left: 50px;
 }
-.h2{
-position: absolute;
-bottom: 10px;
+
+.h2 {
+    position: absolute;
+    bottom: 10px;
 }
-.like-img{
+
+.like-img {
     position: absolute;
     top: 10px;
     height: 30px;
 }
-.card{
+
+.card {
     border: 5px solid #f7d4e3;
     box-shadow: 0 0 6px 1px gray;
     border-radius: 10px;
     margin-top: 20px;
+    cursor: pointer;
 }
-.card:hover{
+
+.card:hover {
     border-radius: 0px;
+
 }
-.img{
+
+.img {
     height: 50px;
+}
+
+.best-product-text {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #f15398;
+    background-color: #f7d0e1;
+    box-shadow:0 0 10px 0px #e42678;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.best-product-card{
+    border:1px solid #e42678;
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+    margin: 10px 20px;
+    background-color: #fff;
+}
+.best-product-card:hover{
+    border: none;
+    box-shadow:0 0 10px 1px #f13184;
+    
+}
+.best-product-img{
+    border-radius: 10px;
+   display: block;
+   margin: 0px auto;
+   height: 250px;
+   width: 250px;
+}
+.best-product-name{
+    color: #e42678;
+    text-align: center;
+    font-weight: bolder;
+}
+.best-product-price{
+    margin-left: 20px;
+    color: #000;
+}
+.add-to-cart{
+    padding:10px 20px;
+    display: block;
+    margin: 10px auto;
+    border:1px solid #e42678;
+    border-radius: 10px;
+    background-color: #e42678;
+    color: #fff;
+    font-size: larger;
+
+}
+.add-to-cart:hover{
+    width: 200px;
+    color: #e42678;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0px #f15398;
 }

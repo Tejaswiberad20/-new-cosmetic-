@@ -1,0 +1,56 @@
+body{
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:beige;
+}
+.head{
+    text-align: center;
+    color: #e42678;
+    margin: 30px 20px;
+}
+.form {
+    height: 450px;
+    width: 450px;
+    border: 1px solid #a8a7a7;
+    padding: 20px 20px;
+    background-color: #fff;
+    display: block;
+    border-radius: 5px 50px 5px 50px;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow:0 0 10px 0px #757575;
+
+}
+
+.text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input {
+    text-align: center;
+    width: 350px;
+}
+
+.log-btn {
+    padding: 10px 10px;
+    width: 130px;
+    font-size: 20px;
+    margin-top: 50px;
+    border: 1px solid #f15f9f;
+    border-radius: 5px;
+    background-color: #e42678;
+    color: #fff;
+}
+.log-btn:hover{
+    width: 150px;
+    background-color: #fff;
+    color: #e42678;
+    box-shadow: 0 0 15px 0px #e42678;
+
+}
+.new-Ac{
+    font-size: 26px;
+    margin-top: 30px;
+}

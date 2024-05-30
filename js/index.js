@@ -7,4 +7,6 @@ function like(){
         
     }
   }
-  
+function addtocard(){
+    alert('Product Add to your card');
+}
