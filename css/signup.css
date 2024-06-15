@@ -1,4 +1,8 @@
 body{
+    background: url('../imges/formbg.jpg');    
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
     font-family: "Bree Serif", serif;
     font-weight: 400;
     font-style: normal;
@@ -12,24 +16,29 @@ body{
 .form {
     height: 750px;
     width: 450px;
-    border: 1px solid #a8a7a7;
     padding: 20px 20px;
-    background-color: #fff;
     display: block;
     border-radius: 10px 50px 10px 50px;
+    backdrop-filter: blur(100px);
     margin: 30px auto;
     text-align: center;
-    box-shadow:0 0 10px 0px #757575;
+    box-shadow:0 0 10px 0px #e42678;
 
 }
+.form:hover{
+    box-shadow:0 0 20px 0px #f1f0f1;
 
+}
 .text {
     text-align: center;
     margin-top: 20px;
+    color: #fff;
 }
 
 .input {
     text-align: center;
+    height: 40px;
+    font-size: 20px;
     width: 350px;
 }
 
