@@ -1,23 +1,150 @@
-.head{
-    background: url(../imges/background.avif);
+.head {
+
     color: #ff1a75;
-    padding: 10px 20px ;
+    padding: 10px 20px;
+    height: 100px;
     text-align: center;
-    filter: grayscale(0.5);
 
 }
-.head:hover{
-    filter: grayscale(0);
+
+.head:hover {
+    color: #000;
+    box-shadow: #f5c6d8;
+}
+
+.head- {
+    text-align: center;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.aboutshop {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    display: inline-block;
+    width: 700px;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.about-head {
+    color: #ff1a75;
+    font-size: 30px;
+}
+
+.about-text:hover {
+    color: #f70867;
+}
+
+.about-img {
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0px #ff1a75;
+}
+
+.whyshop {
+    display: block;
+    margin: 50px auto;
+    color: #000;
+    height: 300px;
+    width: 400px;
+    font-size: 20px;
+    border: 1px solid #faf8f9;
+    padding: 50px 20px;
+    background-color: #f5c6d8;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px #ff1a75;
+}
+
+.whyshop:hover {
+    box-shadow: 0 0 20px 1px #ff1a75;
+
+
+}
+
+.btns {
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+.buot {
+    display: flex;
+    background-color: #fff;
+    border: none;
+    height: 80px;
+    width: 300px;
     box-shadow: 0 0 5px 0px #ff1a75;
 }
-.about-img{
+
+.buot:hover {
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0px #ff1a75;
+    border-radius: 50px;
+}
+
+.icon {
+    display: inline;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.d-flex {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    position: sticky;
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
 }
-.text{
-    width: 500px;
+
+.text {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    justify-content: center;
+
+
 }
-.img-{
-    width: 600px;
-    height: 500px;
-    margin-left: 300px;
+.user-review{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 20px;
 }
+.review{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    border:solid 1px #ff1a75;
+}
+.icon1{
+    display: inline;
+    border-radius: 50%;
+    height: 60px;
+    display: flex;
+    width: 60px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+}
+.user-name{
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+

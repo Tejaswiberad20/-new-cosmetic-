@@ -121,61 +121,40 @@ body {
     height: 50px;
 }
 
-.best-product-text {
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
+.cate-head{
     font-style: normal;
     color: #f15398;
-    background-color: #f7d0e1;
-    box-shadow:0 0 10px 0px #e42678;
-    text-align: center;
-    border-radius: 30px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    text-align: start; 
+    margin-left: 30px;
 }
-.best-product-card{
-    border:1px solid #e42678;
-    border-radius: 10px;
-    height: 400px;
-    width: 300px;
-    margin: 10px 20px;
-    background-color: #fff;
-}
-.best-product-card:hover{
-    border: none;
-    box-shadow:0 0 10px 1px #f13184;
-    
-}
-.best-product-img{
-    border-radius: 10px;
-   display: block;
-   margin: 0px auto;
-   height: 250px;
-   width: 250px;
-}
-.best-product-name{
-    color: #e42678;
-    text-align: center;
-    font-weight: bolder;
-}
-.best-product-price{
-    margin-left: 20px;
-    color: #000;
-}
-.add-to-cart{
-    padding:10px 20px;
-    display: block;
-    margin: 10px auto;
-    border:1px solid #e42678;
-    border-radius: 10px;
-    background-color: #e42678;
-    color: #fff;
-    font-size: larger;
+.Category-card{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-evenly;
 
 }
-.add-to-cart:hover{
-    width: 200px;
-    color: #e42678;
-    background-color: #fff;
+.Category-img{
+    display: inline-block;
+    margin-top: 10px;
+    height: 300px;
+    border-radius: 10px;
+
     box-shadow: 0 0 10px 0px #f15398;
+
+    width: 300px;
+}
+.Category-img:hover{
+box-shadow: 0 0 15px 0px #ff1a75;
+}
+.catimg{
+    position: relative;
+}
+.Category{
+    position: absolute;
+    left: 0px;
+    top:30px;
+    color: #f15398;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius:0px 50px 50px 0px;
 }
